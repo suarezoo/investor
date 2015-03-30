@@ -1,5 +1,8 @@
 package club.booksmart.identityaccess.domain.model.identity;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class Person {
 
 	private String name;
