@@ -1,4 +1,8 @@
 /target/
 .classpath
 .project
+<<<<<<< HEAD
 .settings
+=======
+/.settings/
+>>>>>>> 02e2814687c21c992e2cba74f9935f1ba420acc9
