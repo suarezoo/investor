@@ -1,15 +1,14 @@
 package club.booksmart.service.persistence;
 
-import static org.junit.Assert.*;
+import javax.jcr.GuestCredentials;
+import javax.jcr.LoginException;
+import javax.jcr.Repository;
+import javax.jcr.RepositoryException;
+import javax.jcr.Session;
 
+import org.apache.jackrabbit.commons.JcrUtils;
 import org.junit.Before;
 import org.junit.Test;
-import javax.jcr.GuestCredentials; 
-import javax.jcr.LoginException;
-import javax.jcr.Repository; 
-import javax.jcr.RepositoryException;
-import javax.jcr.Session; 
-import org.apache.jackrabbit.commons.JcrUtils; 
 
 public class JCRtest {
 
